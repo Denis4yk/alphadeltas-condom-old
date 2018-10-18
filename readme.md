@@ -1,35 +1,24 @@
 # Condom
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
-[![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
-
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+Protect your production app with catching undesirable input.
 
 ## Installation
 
 Via Composer
 
 ``` bash
-$ composer require obotoz/condom
+composer require obotoz/condom
 ```
 
 ## Usage
 
-## Change log
-
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Testing
+Publish configs with:
 
 ``` bash
-$ composer test
+php artisan vendor:publish --provider="Obotoz\Condom\CondomServiceProvider" --tag=config
 ```
 
-## Contributing
-
-Please see [contributing.md](contributing.md) for details and a todolist.
+Enjoy your safety 😎 
 
 ## Security
 
@@ -37,21 +26,8 @@ If you discover any security related issues, please email riabiy.denis@gmail.com
 
 ## Credits
 
-- [Denis Riabiy][link-author]
-- [All Contributors][link-contributors]
+- Denis Riabiy
 
 ## License
 
-license. Please see the [license file](license.md) for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/obotoz/condom.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/obotoz/condom.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/obotoz/condom/master.svg?style=flat-square
-[ico-styleci]: https://styleci.io/repos/12345678/shield
-
-[link-packagist]: https://packagist.org/packages/obotoz/condom
-[link-downloads]: https://packagist.org/packages/obotoz/condom
-[link-travis]: https://travis-ci.org/obotoz/condom
-[link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/obotoz
-[link-contributors]: ../../contributors]
+Nah...who reads this.

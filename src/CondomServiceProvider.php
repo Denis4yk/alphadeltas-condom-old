@@ -18,6 +18,10 @@ class CondomServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Event::listen(CommandStarting::class, CommandStartingListener::class);
+
+        $this->publishes([
+            __DIR__ . '/../config/condom.php' => config_path('condom.php'),
+        ], 'config');
     }
 
     /**
