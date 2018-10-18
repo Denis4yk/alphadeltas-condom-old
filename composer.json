@@ -1,0 +1,45 @@
+{
+    "name": "obotoz/condom",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Denis Riabiy",
+            "email": "riabiy.denis@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/obotoz/condom",
+    "keywords": [
+        "Laravel",
+        "Condom"
+    ],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Obotoz\\Condom\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Obotoz\\Condom\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Obotoz\\Condom\\CondomServiceProvider"
+            ],
+            "aliases": {
+                "Condom": "Obotoz\\Condom\\Facades\\Condom"
+            }
+        }
+    }
+}
