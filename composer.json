@@ -1,5 +1,5 @@
 {
-    "name": "obotoz/condom",
+    "name": "alphadeltas/condom",
     "description": ":description",
     "license": "license",
     "authors": [
@@ -8,7 +8,7 @@
             "email": "riabiy.denis@gmail.com"
         }
     ],
-    "homepage": "https://github.com/obotoz/condom",
+    "homepage": "https://github.com/Denis4yk/obotoz-condom/",
     "keywords": [
         "Laravel",
         "Condom"
