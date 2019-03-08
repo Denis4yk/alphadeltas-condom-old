@@ -7,7 +7,7 @@ Protect your production app with catching undesirable input.
 Via Composer
 
 ``` bash
-composer require obotoz/condom
+composer require alphadeltas/condom
 ```
 
 ## Usage
